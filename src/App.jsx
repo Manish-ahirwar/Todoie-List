@@ -1,6 +1,5 @@
 import React from "react";
-import Header from "./Components/Header";
-import TodoItem from "./Components/TodoItem";
+import Card from "./Components/Card";
 
 import "./Style.css";
 
@@ -8,8 +7,10 @@ function App() {
   
 
   return (
-    <div>
-      <Header/>
+    <div className="todo-container">
+      <Card name = "Manish"/>
+      <Card name = "Virat"/>
+      <Card name = "Raina"/>
     </div>
    
   )

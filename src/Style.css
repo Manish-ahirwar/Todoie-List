@@ -1,8 +1,41 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* background-color: black; */
+body{
+    background-color: rgb(194, 23, 23);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    
 
-};
+}
+
+.todo-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 500px;
+    background-color: aqua;
+    padding: 15px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    
+
+}
+
+/* .Heading{
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 60px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: yellow;
+    
+} */
+
+.Heading{
+    display: flex;
+    align-items: center;
+}
 
